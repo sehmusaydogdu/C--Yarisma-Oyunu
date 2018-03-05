@@ -1,0 +1,7 @@
+C:\Users\acer\Desktop\HayvanlarinMucadelesi\Yarisma\bin\Debug\Yarisma.exe.config
+C:\Users\acer\Desktop\HayvanlarinMucadelesi\Yarisma\bin\Debug\Yarisma.exe
+C:\Users\acer\Desktop\HayvanlarinMucadelesi\Yarisma\bin\Debug\Yarisma.pdb
+C:\Users\acer\Desktop\HayvanlarinMucadelesi\Yarisma\obj\Debug\Yarisma.csproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\HayvanlarinMucadelesi\Yarisma\obj\Debug\Yarisma.exe
+C:\Users\acer\Desktop\HayvanlarinMucadelesi\Yarisma\obj\Debug\Yarisma.pdb
+C:\Users\acer\Desktop\HayvanlarinMucadelesi\Yarisma\obj\Debug\Yarisma.csprojResolveAssemblyReference.cache
