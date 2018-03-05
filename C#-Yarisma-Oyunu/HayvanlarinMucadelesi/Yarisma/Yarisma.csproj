@@ -46,6 +46,7 @@
     <Compile Include="Models\DeveKusu.cs" />
     <Compile Include="Models\Fil.cs" />
     <Compile Include="Models\Hayvan.cs" />
+    <Compile Include="Models\Kopek.cs" />
     <Compile Include="Models\Yaris.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

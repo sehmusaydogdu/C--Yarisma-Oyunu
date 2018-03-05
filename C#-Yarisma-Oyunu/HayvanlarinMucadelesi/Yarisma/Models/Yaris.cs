@@ -14,6 +14,7 @@ namespace YarismaDunyasi.Models
         }
         public void YarisiBaslat()
         {
+            Kopek kopek = new Kopek();
             Cakal cakal = new Cakal();
             Fil fil = new Fil();
             DeveKusu deveKusu = new DeveKusu(); 
@@ -21,7 +22,7 @@ namespace YarismaDunyasi.Models
             do
             {
                 ++sayac;
-
+                kopek.KonumDegistir();
                 cakal.KonumDegistir();
                 fil.KonumDegistir();
                 deveKusu.KonumDegistir();
@@ -32,12 +33,13 @@ namespace YarismaDunyasi.Models
                     if (cakal.KonumX == i) Console.Write("Ç");
                     if (fil.KonumX == i) Console.Write("F");
                     if (deveKusu.KonumX == i) Console.Write("D");
+
                     Console.Write(" ");
                 }
 
                 Console.WriteLine();
             } while (cakal.KonumX <= 70 && fil.KonumX <=70 && deveKusu.KonumX<=70);
-            Console.WriteLine($"Fil   {fil.KonumX}   Çakal   {cakal.KonumX}   Deve  {deveKusu.KonumX}");
+            Console.WriteLine("Fil   {0}   Çakal   {1}   Deve  {2}",fil.KonumX,cakal.KonumX,deveKusu.KonumX);
         }
 
     }

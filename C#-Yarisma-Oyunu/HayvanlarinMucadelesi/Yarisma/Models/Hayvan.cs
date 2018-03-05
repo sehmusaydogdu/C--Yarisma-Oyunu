@@ -7,10 +7,13 @@ namespace YarismaDunyasi.Models
         private int _konumX;
         public  int KonumX
         {
-            get => _konumX;
+            get {
+                return _konumX;
+            }
+
             set
             {
-                if (_konumX < 0)
+                if (value < 0)
                     this._konumX = 0;
                 else
                     this._konumX = value;
